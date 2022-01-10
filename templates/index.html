@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>chinga tu madre</h1>
-    <p>Este seria el landing page</p>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Nodo A Web</h1>
+<p>Bienvenido a Nodo A un lugar donde hablamos de Arquitectura para entender mejor la Arquitectura
+<br>En este sitio encontraras herramientas que te ayudaran a realizar un mejor proceso constructivo y de diseño
+</p>
+
+{{ favorite_pizza }}
+
+{% endblock %}
+
